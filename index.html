@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Class 12th - 150 Days Study Roadmap</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- jsPDF Library for PDF Export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>📚 Class 12th - 150 Days Study Roadmap</h1>
+            <p class="subtitle">PCB + English + Hindi | Complete Board Preparation</p>
+            
+            <!-- Progress Dashboard -->
+            <div class="progress-dashboard">
+                <div class="progress-card">
+                    <div class="progress-label">Overall Progress</div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="overallProgress"></div>
+                    </div>
+                    <div class="progress-text" id="progressText">0/150 Days</div>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-value" id="completedDays">0</span>
+                        <span class="stat-label">Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="remainingDays">150</span>
+                        <span class="stat-label">Remaining</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="currentStreak">0</span>
+                        <span class="stat-label">Day Streak</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Month Navigation -->
+            <div class="month-nav">
+                <button class="month-btn active" data-month="1">Month 1</button>
+                <button class="month-btn" data-month="2">Month 2</button>
+                <button class="month-btn" data-month="3">Month 3</button>
+                <button class="month-btn" data-month="4">Month 4</button>
+                <button class="month-btn" data-month="5">Month 5</button>
+            </div>
+        </header>
+
+        <!-- Roadmap Content -->
+        <main class="roadmap-content">
+            <!-- MONTH 1 -->
+            <section class="month-section active" data-month="1">
+                <h2 class="month-title">📍 MONTH 1 (Days 1–30)</h2>
+                <p class="month-focus">Focus: Physics + Chemistry + Biology Basics</p>
+
+                <!-- Physics Chapter 1 -->
+                <div class="chapter-block physics">
+                    <h3 class="chapter-title">⚡ PHYSICS Chapter-1: वैद्युत स्थैतिकी</h3>
+                  
+        
+                    <div class="days-grid">
+                        <div class="day-card" data-day="1">
+                            <div class="day-number">Day 1</div>
+                            <div class="day-topic">Electrostatics Introduction + Charges</div>
+                            <button class="complete-btn">Mark Complete</button>
+                            
+                        </div>
+                        <div class="day-card" data-day="2">
+                            <div class="day-number">Day 2</div>
+                            <div class="day-topic">Coulomb's Law + Numerical</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="3">
+                            <div class="day-number">Day 3</div>
+                            <div class="day-topic">Electric Field + Lines of Force</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="4">
+                            <div class="day-number">Day 4</div>
+                            <div class="day-topic">Electric Potential + Capacitors</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="5">
+                            <div class="day-number">Day 5</div>
+                            <div class="day-topic">Dielectric + Energy in Capacitor + Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemistry Chapter 1 -->
+                <div class="chapter-block chemistry">
+                    <h3 class="chapter-title">🧪 CHEMISTRY Chapter-1: ठोस अवस्था</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="6">
+                            <div class="day-number">Day 6</div>
+                            <div class="day-topic">Solid State Introduction + Classification</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="7">
+                            <div class="day-number">Day 7</div>
+                            <div class="day-topic">Crystal Lattices + Unit Cell</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="8">
+                            <div class="day-number">Day 8</div>
+                            <div class="day-topic">Packing Fraction + Defects</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="9">
+                            <div class="day-number">Day 9</div>
+                            <div class="day-topic">Electrical Properties + Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biology Unit 1 -->
+                <div class="chapter-block biology">
+                    <h3 class="chapter-title">🧬 BIOLOGY Unit-1 (Basics)</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="10">
+                            <div class="day-number">Day 10</div>
+                            <div class="day-topic">Sexual Reproduction in Plants (Overview)</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="11">
+                            <div class="day-number">Day 11</div>
+                            <div class="day-topic">Pollination & Fertilization</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="12">
+                            <div class="day-number">Day 12</div>
+                            <div class="day-topic">Human Reproduction Overview</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="13">
+                            <div class="day-number">Day 13</div>
+                            <div class="day-topic">Gametogenesis & Menstrual Cycle</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="14">
+                            <div class="day-number">Day 14</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Physics Chapter 2 -->
+                <div class="chapter-block physics">
+                    <h3 class="chapter-title">⚡ PHYSICS Chapter-2: वैद्युत धारा</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="15">
+                            <div class="day-number">Day 15</div>
+                            <div class="day-topic">Electric Current + Drift Velocity</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="16">
+                            <div class="day-number">Day 16</div>
+                            <div class="day-topic">Ohm's Law + Resistance</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="17">
+                            <div class="day-number">Day 17</div>
+                            <div class="day-topic">Kirchoff's Laws + Wheatstone Bridge</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="18">
+                            <div class="day-number">Day 18</div>
+                            <div class="day-topic">Potentiometer</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="19">
+                            <div class="day-number">Day 19</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemistry Chapter 2 -->
+                <div class="chapter-block chemistry">
+                    <h3 class="chapter-title">🧪 CHEMISTRY Chapter-2: विलयन</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="20">
+                            <div class="day-number">Day 20</div>
+                            <div class="day-topic">Types of Solutions</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="21">
+                            <div class="day-number">Day 21</div>
+                            <div class="day-topic">Solubility + Henry's Law</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="22">
+                            <div class="day-number">Day 22</div>
+                            <div class="day-topic">Raoult's Law + Colligative Properties</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="23">
+                            <div class="day-number">Day 23</div>
+                            <div class="day-topic">Abnormal Molar Mass</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="24">
+                            <div class="day-number">Day 24</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biology Unit 1 Complete -->
+                <div class="chapter-block biology">
+                    <h3 class="chapter-title">🧬 BIOLOGY Unit-1 (पूरा)</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="25">
+                            <div class="day-number">Day 25</div>
+                            <div class="day-topic">Reproductive Health Overview</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="26">
+                            <div class="day-number">Day 26</div>
+                            <div class="day-topic">Contraception + MTP</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="27">
+                            <div class="day-number">Day 27</div>
+                            <div class="day-topic">STDs</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="28">
+                            <div class="day-number">Day 28</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Revision Week -->
+                <div class="chapter-block revision-week">
+                    <h3 class="chapter-title">🔄 REVISION WEEK</h3>
+                    <div class="days-grid">
+                        <div class="day-card revision" data-day="29">
+                            <div class="day-number">Day 29</div>
+                            <div class="day-topic">Physics Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="30">
+                            <div class="day-number">Day 30</div>
+                            <div class="day-topic">Chemistry + Biology Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MONTH 2 -->
+            <section class="month-section" data-month="2">
+                <h2 class="month-title">📍 MONTH 2 (Days 31–60)</h2>
+                <p class="month-focus">Focus: Physics + Chemistry मुख्य Chapters</p>
+
+                <!-- Physics Chapter 3 -->
+                <div class="chapter-block physics">
+                    <h3 class="chapter-title">⚡ PHYSICS Chapter-3: चुंबकीय प्रभाव</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="31">
+                            <div class="day-number">Day 31</div>
+                            <div class="day-topic">Magnetic Field Basics</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="32">
+                            <div class="day-number">Day 32</div>
+                            <div class="day-topic">Biot-Savart Law + Ampere's Law</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="33">
+                            <div class="day-number">Day 33</div>
+                            <div class="day-topic">Force on Current + Motion in Field</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="34">
+                            <div class="day-number">Day 34</div>
+                            <div class="day-topic">Solenoid + Toroid + Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemistry Chapter 3 -->
+                <div class="chapter-block chemistry">
+                    <h3 class="chapter-title">🧪 CHEMISTRY Chapter-3: वैद्युत रसायन </h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="35" > 
+                            <div class="day-number">Day 35</div>
+                            <div class="day-topic">Electrochemistry Basics</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="36">
+                            <div class="day-number">Day 36</div>
+                            <div class="day-topic">Nernst Equation</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="37">
+                            <div class="day-number">Day 37</div>
+                            <div class="day-topic">Conductance + Kohlrausch Law</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="38">
+                            <div class="day-number">Day 38</div>
+                            <div class="day-topic">Batteries + Fuel Cells + Corrosion</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Physics Chapter 4 -->
+                <div class="chapter-block physics">
+                    <h3 class="chapter-title">⚡ PHYSICS Chapter-4: EM Induction & AC</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="39">
+                            <div class="day-number">Day 39</div>
+                            <div class="day-topic">Faraday's Law</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="40">
+                            <div class="day-number">Day 40</div>
+                            <div class="day-topic">Lenz Law + Eddy Currents</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="41">
+                            <div class="day-number">Day 41</div>
+                            <div class="day-topic">AC Basics + RMS + Reactance</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="42">
+                            <div class="day-number">Day 42</div>
+                            <div class="day-topic">LC/RC/RL Circuits + Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemistry Chapter 4 -->
+                <div class="chapter-block chemistry">
+                    <h3 class="chapter-title">🧪 CHEMISTRY Chapter-4: रासायनिक गतिकी</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="43">
+                            <div class="day-number">Day 43</div>
+                            <div class="day-topic">Rate of Reaction</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="44">
+                            <div class="day-number">Day 44</div>
+                            <div class="day-topic">Order & Molecularity</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="45">
+                            <div class="day-number">Day 45</div>
+                            <div class="day-topic">Arrhenius Equation</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="46">
+                            <div class="day-number">Day 46</div>
+                            <div class="day-topic">Activation Energy + Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Physics Chapter 5 -->
+                <div class="chapter-block physics">
+                    <h3 class="chapter-title">⚡ PHYSICS Chapter-5: EM Waves</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="47">
+                            <div class="day-number">Day 47</div>
+                            <div class="day-topic">EM Waves Basics</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="48">
+                            <div class="day-number">Day 48</div>
+                            <div class="day-topic">Spectrum + Applications</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemistry Chapter 5 -->
+                <div class="chapter-block chemistry">
+                    <h3 class="chapter-title">🧪 CHEMISTRY Chapter-5: पृष्ठ रसायन</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="49">
+                            <div class="day-number">Day 49</div>
+                            <div class="day-topic">Adsorption Basics</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="50">
+                            <div class="day-number">Day 50</div>
+                            <div class="day-topic">Catalysis + Emulsion + Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Physics Chapter 6 -->
+                <div class="chapter-block physics">
+                    <h3 class="chapter-title">⚡ PHYSICS Chapter-6: प्रकाशिकी</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="51">
+                            <div class="day-number">Day 51</div>
+                            <div class="day-topic">Reflection + Refraction</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="52">
+                            <div class="day-number">Day 52</div>
+                            <div class="day-topic">Lenses + Prism</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="53">
+                            <div class="day-number">Day 53</div>
+                            <div class="day-topic">Optical Instruments</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="54">
+                            <div class="day-number">Day 54</div>
+                            <div class="day-topic">Huygens Wave Theory</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="55">
+                            <div class="day-number">Day 55</div>
+                            <div class="day-topic">Interference + Diffraction + Polarization</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemistry Chapter 6 -->
+                <div class="chapter-block chemistry">
+                    <h3 class="chapter-title">🧪 CHEMISTRY Chapter-6: Isolation of Elements</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="56">
+                            <div class="day-number">Day 56</div>
+                            <div class="day-topic">Metallurgy Basics</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="57">
+                            <div class="day-number">Day 57</div>
+                            <div class="day-topic">Concentration of Ore</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="58">
+                            <div class="day-number">Day 58</div>
+                            <div class="day-topic">Reduction + Refining</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="59">
+                            <div class="day-number">Day 59</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Revision Week -->
+                <div class="chapter-block revision-week">
+                    <h3 class="chapter-title">🔄 REVISION WEEK</h3>
+                    <div class="days-grid">
+                        <div class="day-card revision" data-day="60">
+                            <div class="day-number">Day 60</div>
+                            <div class="day-topic">Physics + Chemistry Tests</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MONTH 3 -->
+            <section class="month-section" data-month="3">
+                <h2 class="month-title">📍 MONTH 3 (Days 61–90)</h2>
+                <p class="month-focus">Focus: Biology + English</p>
+
+                <!-- Biology Unit 2 -->
+                <div class="chapter-block biology">
+                    <h3 class="chapter-title">🧬 BIOLOGY Unit-2: आनुवंशिकी एवं उत्क्रांति</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="61">
+                            <div class="day-number">Day 61</div>
+                            <div class="day-topic">Mendel's Laws</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="62">
+                            <div class="day-number">Day 62</div>
+                            <div class="day-topic">Monohybrid + Dihybrid Cross</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="63">
+                            <div class="day-number">Day 63</div>
+                            <div class="day-topic">Linkage & Recombination</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="64">
+                            <div class="day-number">Day 64</div>
+                            <div class="day-topic">Sex Determination</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="65">
+                            <div class="day-number">Day 65</div>
+                            <div class="day-topic">Chromosomal Disorders</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="66">
+                            <div class="day-number">Day 66</div>
+                            <div class="day-topic">Hardy-Weinberg + Evolution Theories</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="67">
+                            <div class="day-number">Day 67</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biology Unit 3 -->
+                <div class="chapter-block biology">
+                    <h3 class="chapter-title">🧬 BIOLOGY Unit-3: जीव विज्ञान एवं मानव कल्याण</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="68">
+                            <div class="day-number">Day 68</div>
+                            <div class="day-topic">Microbes in Human Welfare</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="69">
+                            <div class="day-number">Day 69</div>
+                            <div class="day-topic">Antibiotics + Vaccines</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="70">
+                            <div class="day-number">Day 70</div>
+                            <div class="day-topic">Immunity</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="71">
+                            <div class="day-number">Day 71</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biology Unit 4 -->
+                <div class="chapter-block biology">
+                    <h3 class="chapter-title">🧬 BIOLOGY Unit-4: जैव प्रौद्योगिकी</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="72">
+                            <div class="day-number">Day 72</div>
+                            <div class="day-topic">Principles of Biotechnology</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="73">
+                            <div class="day-number">Day 73</div>
+                            <div class="day-topic">Recombinant DNA</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="74">
+                            <div class="day-number">Day 74</div>
+                            <div class="day-topic">Applications in Industries</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="75">
+                            <div class="day-number">Day 75</div>
+                            <div class="day-topic">Healthcare + Agriculture</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="76">
+                            <div class="day-number">Day 76</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biology Unit 5 -->
+                <div class="chapter-block biology">
+                    <h3 class="chapter-title">🧬 BIOLOGY Unit-5: पारिस्थितिकी</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="77">
+                            <div class="day-number">Day 77</div>
+                            <div class="day-topic">Ecosystem Basics</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="78">
+                            <div class="day-number">Day 78</div>
+                            <div class="day-topic">Food Chain + Pyramids</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="79">
+                            <div class="day-number">Day 79</div>
+                            <div class="day-topic">Biodiversity</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="80">
+                            <div class="day-number">Day 80</div>
+                            <div class="day-topic">Environmental Issues</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="81">
+                            <div class="day-number">Day 81</div>
+                            <div class="day-topic">Revision/Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English -->
+                <div class="chapter-block english">
+                    <h3 class="chapter-title">📖 ENGLISH (Literature + Grammar)</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="82">
+                            <div class="day-number">Day 82</div>
+                            <div class="day-topic">Prose (Ch-1,2)</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="83">
+                            <div class="day-number">Day 83</div>
+                            <div class="day-topic">Prose (Ch-3,4)</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="84">
+                            <div class="day-number">Day 84</div>
+                            <div class="day-topic">Poetry (Poem-1,2,3)</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="85">
+                            <div class="day-number">Day 85</div>
+                            <div class="day-topic">Poetry (Poem-4,5)</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="86">
+                            <div class="day-number">Day 86</div>
+                            <div class="day-topic">Novel/Story of English Part-1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="87">
+                            <div class="day-number">Day 87</div>
+                            <div class="day-topic">Novel/Story of English Part-2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="88">
+                            <div class="day-number">Day 88</div>
+                            <div class="day-topic">Grammar – Tenses + Voice</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="89">
+                            <div class="day-number">Day 89</div>
+                            <div class="day-topic">Grammar – Narration + Modals</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="90">
+                            <div class="day-number">Day 90</div>
+                            <div class="day-topic">Letter Writing + Essay + Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MONTH 4 -->
+            <section class="month-section" data-month="4">
+                <h2 class="month-title">📍 MONTH 4 (Days 91–120)</h2>
+                <p class="month-focus">Focus: Hindi + Full Revision PCB Start</p>
+
+                <!-- Hindi -->
+                <div class="chapter-block hindi">
+                    <h3 class="chapter-title">📝 HINDI Literature + Grammar</h3>
+                    <div class="days-grid">
+                        <div class="day-card" data-day="91">
+                            <div class="day-number">Day 91</div>
+                            <div class="day-topic">गद्य Lesson-1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="92">
+                            <div class="day-number">Day 92</div>
+                            <div class="day-topic">गद्य Lesson-2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="93">
+                            <div class="day-number">Day 93</div>
+                            <div class="day-topic">गद्य Lesson-3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="94">
+                            <div class="day-number">Day 94</div>
+                            <div class="day-topic">पद्य Lesson-1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="95">
+                            <div class="day-number">Day 95</div>
+                            <div class="day-topic">पद्य Lesson-2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="96">
+                            <div class="day-number">Day 96</div>
+                            <div class="day-topic">प्रतिपूर्ति Lesson-1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="97">
+                            <div class="day-number">Day 97</div>
+                            <div class="day-topic">प्रतिपूर्ति Lesson-2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="98">
+                            <div class="day-number">Day 98</div>
+                            <div class="day-topic">प्रतिपूर्ति Lesson-3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card" data-day="99">
+                            <div class="day-number">Day 99</div>
+                            <div class="day-topic">व्याकरण (समास + उपसर्ग/प्रत्यय)</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="100">
+                            <div class="day-number">Day 100</div>
+                            <div class="day-topic">व्याकरण (मुहावरा + विलोम + पर्यायवाची)</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PCB Revision Round 1 -->
+                <div class="chapter-block revision-week">
+                    <h3 class="chapter-title">🔄 PCB Revision Round-1</h3>
+                    <div class="days-grid">
+                        <div class="day-card revision" data-day="101">
+                            <div class="day-number">Day 101</div>
+                            <div class="day-topic">Physics CH-1 to 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="102">
+                            <div class="day-number">Day 102</div>
+                            <div class="day-topic">Physics CH-4 to 6</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="103">
+                            <div class="day-number">Day 103</div>
+                            <div class="day-topic">Physics CH-7 to 10</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="104">
+                            <div class="day-number">Day 104</div>
+                            <div class="day-topic">Chemistry CH-1 to 5</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="105">
+                            <div class="day-number">Day 105</div>
+                            <div class="day-topic">Chemistry CH-6 to 10</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="106">
+                            <div class="day-number">Day 106</div>
+                            <div class="day-topic">Chemistry CH-11 to 16</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="107">
+                            <div class="day-number">Day 107</div>
+                            <div class="day-topic">Biology Unit-1 & 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="108">
+                            <div class="day-number">Day 108</div>
+                            <div class="day-topic">Biology Unit-3 & 4</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="109">
+                            <div class="day-number">Day 109</div>
+                            <div class="day-topic">Biology Unit-5</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="110">
+                            <div class="day-number">Day 110</div>
+                            <div class="day-topic">English Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="111">
+                            <div class="day-number">Day 111</div>
+                            <div class="day-topic">Hindi Revision</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Model Papers -->
+                <div class="chapter-block test">
+                    <h3 class="chapter-title">📝 Model Paper + PYQ Practice</h3>
+                    <div class="days-grid">
+                        <div class="day-card test-day" data-day="112">
+                            <div class="day-number">Day 112</div>
+                            <div class="day-topic">Model Paper Practice 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="113">
+                            <div class="day-number">Day 113</div>
+                            <div class="day-topic">Model Paper Practice 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="114">
+                            <div class="day-number">Day 114</div>
+                            <div class="day-topic">Model Paper Practice 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="115">
+                            <div class="day-number">Day 115</div>
+                            <div class="day-topic">Model Paper Practice 4</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="116">
+                            <div class="day-number">Day 116</div>
+                            <div class="day-topic">Model Paper Practice 5</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="117">
+                            <div class="day-number">Day 117</div>
+                            <div class="day-topic">PYQ Practice 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="118">
+                            <div class="day-number">Day 118</div>
+                            <div class="day-topic">PYQ Practice 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="119">
+                            <div class="day-number">Day 119</div>
+                            <div class="day-topic">PYQ Practice 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="120">
+                            <div class="day-number">Day 120</div>
+                            <div class="day-topic">PYQ Practice 4</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MONTH 5 -->
+            <section class="month-section" data-month="5">
+                <h2 class="month-title">📍 MONTH 5 (Days 121–150)</h2>
+                <p class="month-focus">Focus: Final Revision + Tests + PYQ</p>
+
+                <!-- Physics Final Revision -->
+                <div class="chapter-block physics">
+                    <h3 class="chapter-title">⚡ Physics Full Revision</h3>
+                    <div class="days-grid">
+                        <div class="day-card revision" data-day="121">
+                            <div class="day-number">Day 121</div>
+                            <div class="day-topic">Physics Revision Day 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="122">
+                            <div class="day-number">Day 122</div>
+                            <div class="day-topic">Physics Revision Day 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="123">
+                            <div class="day-number">Day 123</div>
+                            <div class="day-topic">Physics Revision Day 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="124">
+                            <div class="day-number">Day 124</div>
+                            <div class="day-topic">Physics Revision Day 4</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="125">
+                            <div class="day-number">Day 125</div>
+                            <div class="day-topic">Physics Revision Day 5</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemistry Final Revision -->
+                <div class="chapter-block chemistry">
+                    <h3 class="chapter-title">🧪 Chemistry Full Revision</h3>
+                    <div class="days-grid">
+                        <div class="day-card revision" data-day="126">
+                            <div class="day-number">Day 126</div>
+                            <div class="day-topic">Chemistry Revision Day 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="127">
+                            <div class="day-number">Day 127</div>
+                            <div class="day-topic">Chemistry Revision Day 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="128">
+                            <div class="day-number">Day 128</div>
+                            <div class="day-topic">Chemistry Revision Day 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="129">
+                            <div class="day-number">Day 129</div>
+                            <div class="day-topic">Chemistry Revision Day 4</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="130">
+                            <div class="day-number">Day 130</div>
+                            <div class="day-topic">Chemistry Revision Day 5</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biology Final Revision -->
+                <div class="chapter-block biology">
+                    <h3 class="chapter-title">🧬 Biology Full Revision</h3>
+                    <div class="days-grid">
+                        <div class="day-card revision" data-day="131">
+                            <div class="day-number">Day 131</div>
+                            <div class="day-topic">Biology Revision Day 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="132">
+                            <div class="day-number">Day 132</div>
+                            <div class="day-topic">Biology Revision Day 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="133">
+                            <div class="day-number">Day 133</div>
+                            <div class="day-topic">Biology Revision Day 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="134">
+                            <div class="day-number">Day 134</div>
+                            <div class="day-topic">Biology Revision Day 4</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card revision" data-day="135">
+                            <div class="day-number">Day 135</div>
+                            <div class="day-topic">Biology Revision Day 5</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English Model Papers -->
+                <div class="chapter-block english">
+                    <h3 class="chapter-title">📖 English Model Paper</h3>
+                    <div class="days-grid">
+                        <div class="day-card test-day" data-day="136">
+                            <div class="day-number">Day 136</div>
+                            <div class="day-topic">English Model Paper 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="137">
+                            <div class="day-number">Day 137</div>
+                            <div class="day-topic">English Model Paper 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="138">
+                            <div class="day-number">Day 138</div>
+                            <div class="day-topic">English Model Paper 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hindi Model Papers -->
+                <div class="chapter-block hindi">
+                    <h3 class="chapter-title">📝 Hindi Model Paper</h3>
+                    <div class="days-grid">
+                        <div class="day-card test-day" data-day="139">
+                            <div class="day-number">Day 139</div>
+                            <div class="day-topic">Hindi Model Paper 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="140">
+                            <div class="day-number">Day 140</div>
+                            <div class="day-topic">Hindi Model Paper 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="141">
+                            <div class="day-number">Day 141</div>
+                            <div class="day-topic">Hindi Model Paper 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PYQ Practice -->
+                <div class="chapter-block test">
+                    <h3 class="chapter-title">📝 PYQ Practice (3 Years)</h3>
+                    <div class="days-grid">
+                        <div class="day-card test-day" data-day="142">
+                            <div class="day-number">Day 142</div>
+                            <div class="day-topic">PCB PYQ Practice Day 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="143">
+                            <div class="day-number">Day 143</div>
+                            <div class="day-topic">PCB PYQ Practice Day 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="144">
+                            <div class="day-number">Day 144</div>
+                            <div class="day-topic">PCB PYQ Practice Day 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="145">
+                            <div class="day-number">Day 145</div>
+                            <div class="day-topic">PCB PYQ Practice Day 4</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="146">
+                            <div class="day-number">Day 146</div>
+                            <div class="day-topic">Bio + Hindi + English PYQ Day 1</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="147">
+                            <div class="day-number">Day 147</div>
+                            <div class="day-topic">Bio + Hindi + English PYQ Day 2</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card test-day" data-day="148">
+                            <div class="day-number">Day 148</div>
+                            <div class="day-topic">Bio + Hindi + English PYQ Day 3</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Final Days -->
+                <div class="chapter-block final-days">
+                    <h3 class="chapter-title">🎯 Final Preparation</h3>
+                    <div class="days-grid">
+                        <div class="day-card test-day" data-day="149">
+                            <div class="day-number">Day 149</div>
+                            <div class="day-topic">Full Syllabus Test</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                        <div class="day-card special" data-day="150">
+                            <div class="day-number">Day 150</div>
+                            <div class="day-topic">Final Paper Strategy + Doubt Clearance</div>
+                            <button class="complete-btn">Mark Complete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result Section -->
+                <div class="result-section">
+                    <h3>📌 RESULT</h3>
+                    <ul>
+                        <li>✔ पूरा सिलेबस 150 दिनों में ख़त्म</li>
+                        <li>✔ 2 बार Revision</li>
+                        <li>✔ PYQ + Model Paper Completed</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button id="resetBtn" class="action-btn reset-btn">🔄 Reset Progress</button>
+            <button id="exportJsonBtn" class="action-btn export-btn">📥 Export JSON</button>
+            <button id="exportPdfBtn" class="action-btn pdf-btn">📄 Export PDF Report</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
